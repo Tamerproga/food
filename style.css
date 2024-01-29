@@ -1,0 +1,206 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.bob {
+    height: 93%;
+    width: 25%;
+    background-color: yellow;
+    padding: 35px;
+}
+.bob2 {
+    height: 93%;
+    width: 25%;
+    background-color: white;
+    padding: 35px;
+}
+.bob3 {
+    height: 93%;
+    width: 25%;
+    background-color:blue   ;
+    padding: 35px;
+}
+.bob4 {
+    height: 93%;
+    width: 25%;
+    background-color: green;    
+    padding: 35px;
+}
+.bob li{
+    background-color:orange;
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    height: 50px;
+}       
+.bob2 li{
+    background-color:blanchedalmond;
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    height: 50px; 
+}
+.bob3 li{
+    background-color:royalblue;
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    height: 50px;
+}
+.bob4 li{
+    background-color:greenyellow    ;
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    height: 50px;
+}
+.nav ul{
+    text-align: center;
+    list-style:  none;
+    margin: 0;
+    padding: 0;
+    background-color: white ;
+    width: 100%;
+    overflow: hidden;
+    font-size: 22  px;
+    border: solid black;
+}   
+.nav a{
+ display: block;
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    float: left;
+}
+    .nav a:hover{
+        background-color:antiquewhite;
+        color:aliceblue
+    }
+    .nav{
+        position: sticky;
+        top :0;
+    }
+.but{
+    height: 300px;
+    width: 100%;
+        padding: 50px;
+        background-color: aliceblue;
+}
+.btnf{
+    padding: 20px 30px;
+    text-align: left;
+    color: orange;
+    border-radius: 12px;
+    box-shadow: -10px 16px 8px;
+    cursor:grab;
+}
+.btno{
+    padding: 20px 30px ;
+    text-align: left;
+    color: green;
+    border-radius: 12px;
+    box-shadow: 0px 16px 16px;
+    cursor:grab;
+}
+.btns{
+    padding: 20px 30px;
+    text-align: left;
+    color: red;
+    border-radius: 12px;
+    box-shadow: 0px 16px 16px;
+    cursor:grab;
+}
+.btnv{
+    padding: 20px 30px;
+    text-align: left;
+    color: blue;
+    border-radius: 12px;
+    box-shadow: 10px 16px 8px;
+    cursor:grab;
+}
+.btnf:hover{
+background-color: antiquewhite;
+}
+.btno:hover{
+    background-color: antiquewhite;
+    }
+    .btns:hover{
+        background-color: antiquewhite;
+        }
+        .btnv:hover{
+            background-color: antiquewhite;
+        }
+form{
+    width: 100%;
+    float: right;
+    height: 75%;
+    display: flex;
+}
+.search{
+    width: 89%;
+    height: 31px;
+}
+.binon{
+    width: 11%;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+}
+.binon:hover{
+    cursor: pointer;
+    background-color: grey;
+}
